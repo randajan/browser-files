@@ -1,6 +1,6 @@
 (() => {
   // <define:__slib_info>
-  var define_slib_info_default = { env: "dev", isBuild: false, name: "@randajan/browser-files", description: "Lightweight browser library for reading and saving files with customizable serialization.", version: "1.0.0", author: { name: "Jan Randa", email: "jnranda@gmail.com", url: "https://www.linkedin.com/in/randajan/" }, mode: "web", port: 3006, dir: { root: "C:\\dev\\lib\\browser-files", dist: "demo\\dist" } };
+  var define_slib_info_default = { isBuild: true, name: "@randajan/browser-files", description: "Lightweight browser library for reading and saving files with customizable serialization.", version: "1.0.1", author: { name: "Jan Randa", email: "jnranda@gmail.com", url: "https://www.linkedin.com/in/randajan/" }, env: "development", mode: "web", port: 3006, dir: { root: "C:\\dev\\lib\\browser-files", dist: "demo\\dist" } };
 
   // node_modules/chalk/source/vendor/ansi-styles/index.js
   var ANSI_BACKGROUND_OFFSET = 10;

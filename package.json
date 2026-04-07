@@ -1,0 +1,55 @@
+{
+  "name": "@randajan/browser-files",
+  "version": "1.0.0",
+  "description": "Lightweight browser library for reading and saving files with customizable serialization.",
+  "repository": "randajan/browser-files",
+  "type": "module",
+  "main": "./dist/cjs/index.cjs",
+  "module": "./dist/esm/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.mjs",
+      "require": "./dist/cjs/index.cjs"
+    }
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@randajan/simple-lib": "^3.2.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "browser",
+    "file",
+    "files",
+    "file-io",
+    "file-upload",
+    "file-download",
+    "file-reader",
+    "file-writer",
+    "blob",
+    "frontend",
+    "client-side",
+    "json",
+    "text",
+    "serialization",
+    "deserialization",
+    "utility",
+    "utils"
+  ],
+  "homepage": "https://github.com/randajan/browser-files",
+  "bugs": {
+    "url": "https://github.com/randajan/browser-files/issues"
+  },
+  "author": {
+    "name": "Jan Randa",
+    "email": "jnranda@gmail.com",
+    "url": "https://www.linkedin.com/in/randajan/"
+  },
+  "dependencies": {
+    "@randajan/props": "^0.1.4"
+  }
+}

@@ -1,0 +1,4 @@
+/node_modules
+/demo/server/dist
+/demo/client/dist
+/dist
